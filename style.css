@@ -1,0 +1,26 @@
+.whatsapp-chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(45deg, #25D366, #128C7E);
+    color: white;
+    padding: 12px 18px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.whatsapp-chat:hover {
+    transform: scale(1.05);
+}
+
+.whatsapp-icon {
+    margin-right: 8px;
+    font-size: 20px;
+}
